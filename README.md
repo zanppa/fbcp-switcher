@@ -5,7 +5,7 @@ Scripts to switch between fbtft/fbcp and fbcp-ili9341 on-the-fly
 This repository contains scripts for Raspberry PI and SPI TFT displays.
 
 ## Introduction
-The scripts are intended to switch between the "standard" fbtft and [fbcp](https://github.com/tasanakorn/rpi-fbcp) display driver and the ultra-fast [fbcp-ili9341](https://github.com/juj/fbcp-ili9341) display driver on the fly. The fast driver does not currently support the touch screen available in many displays, but is otherwise much faster driver. That's why these scripts were made, to allow using the touch screen when update speed is not critical (desktop) and change to the fast driver when it is (games, videos etc.).
+The scripts are intended to switch between the "standard" [fbtft](https://github.com/notro/fbtft) and [fbcp](https://github.com/tasanakorn/rpi-fbcp) display driver and the ultra-fast [fbcp-ili9341](https://github.com/juj/fbcp-ili9341) display driver on the fly. The fast driver does not currently support the touch screen available in many displays, but is otherwise much faster driver. That's why these scripts were made, to allow using the touch screen when update speed is not critical (desktop) and change to the fast driver when it is (games, videos etc.).
 
 ## Background
 The scripts were made for [Waveshare 4" touch screen TFT](https://www.waveshare.com/wiki/4inch_RPi_LCD_(A)) running on Raspberry PI zero W. I don't see why the scripts would not work on other hardware, but they need to be modified accordingly.
