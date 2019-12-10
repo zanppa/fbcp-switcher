@@ -1,5 +1,5 @@
 # fbcp-switcher
-Scripts to switch between fbtft/fbcp and fbcp-ili9341 on-the-fly
+Scripts to switch between [fbtft](https://github.com/notro/fbtft)/[fbcp](https://github.com/tasanakorn/rpi-fbcp) and [fbcp-ili9341](https://github.com/juj/fbcp-ili9341) on-the-fly
 
 ## Target
 This repository contains scripts for Raspberry PI and SPI TFT displays.
