@@ -1,0 +1,12 @@
+[Unit]
+Description=Framebuffer copy for TFT & touch driver
+Conflicts=fbcp-ili9341.service
+Before=fbcp-ili9341.service
+
+[Service]
+ExecStartPre=/usr/local/bin/load-waveshare35a-overlay.sh
+ExecStart=/usr/local/bin/fbcp
+ExecStopPost=/usr/local/bin/remove-waveshare35a-overlay.sh
+
+[Install]
+WantedBy=multi-user.target
