@@ -1,0 +1,10 @@
+[Unit]
+Description=Start fast TFT driver fbcp-ili9341
+Conflicts=fbcp.service
+After=fbcp.service
+
+[Service]
+ExecStart=/usr/local/bin/fbcp-ili9341
+
+[Install]
+WantedBy=multi-user.target
